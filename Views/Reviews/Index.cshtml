@@ -1,0 +1,112 @@
+﻿@model IEnumerable<RenewingPassport.Models.Review>
+
+@{
+    ViewData["Title"] = "Index";
+}
+@*
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+ <table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subject)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.message)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Subject)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.message)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table> 
+<br />
+<br />
+<hr />
+<br />
+<hr />*@
+<section class="client_section layout_padding-bottom">
+    <div class="container">
+      @*   <div class="heading_container heading_center psudo_white_primary mb_45" >
+            <img src="~/images/customer-review.png" width="50" height="55" />
+            <h2 style="color:#ffffff; font-family: 'Times New Roman', Times, serif; text-align:center;">
+                Reviews
+            </h2>
+        </div> *@
+        <a class="navbar-brand" href="index.html" style="margin-left:490px">
+            <img src="~/images/customer-review.png" width="50" height="55" />
+            <span style=" font-family:'Times New Roman', Times, serif; margin-left:15px;">
+                Reviews
+            </span>
+
+        </a>
+        <div class="carousel-wrap row">
+            <div class="owl-carousel client_owl-carousel">
+                @foreach (var item in Model)
+                {
+                <!-- Testimonial Item 1 -->
+                <div class="item">
+                    <div class="box">
+                        <div class="detail-box">
+                                <h4 style="color:#ffbe33; font-family:'Times New Roman', Times, serif">
+                                    @Html.DisplayFor(modelItem => item.Name)
+                            </h4>
+                            <p>
+                                    @Html.DisplayFor(modelItem => item.Subject)
+                            </p>
+                                <p style=" width: 100%;overflow: hidden;">
+                                    @Html.DisplayFor(modelItem => item.message)
+                                </p>
+                        </div>
+                        <div class="img-box">
+                                <img src="~/images/user.png" alt="" class="box-img">
+                        </div>
+                    </div>
+                </div>
+                }
+                <!-- Additional Testimonial Items go here -->
+
+            </div>
+        </div>
+    </div>
+</section>
+@* <p>
+    <a asp-action="Create"  style="pointer-events: all; cursor: pointer; width: 70%;
+        background-color: #ffbe33;
+        color: #ffffff;">Make Review</a>
+</p *@
+
+ <a asp-action="Create"><input type="submit" value="Send Review" style="pointer-events: all;border:none; cursor: pointer; width: 150px; height:45px; border-radius:15px;
+        background-color: #ffbe33;
+        color: #ffffff; margin-left:25px" /> </a>

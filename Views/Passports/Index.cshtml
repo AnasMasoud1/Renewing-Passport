@@ -1,0 +1,196 @@
+﻿@model IEnumerable<RenewingPassport.Models.Passport>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+   /*  body{
+        background-color:#ffffff;
+    } */
+    .center-table {
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    table {
+        /* border-collapse: collapse; */
+        /* border:none; */
+        width: 100%;
+        border-radius:25px;
+    }
+
+    th, td {
+        padding: 10px;
+       /*  border: 1px solid #c6c9cc; */
+        text-align: left;
+    }
+
+    th {
+        background: #ffbe33;
+        color: #fff;
+    }
+/*     td {
+        color:#fff;
+    } */
+
+        th:first-child, td:first-child {
+            border-top-left-radius: 6px;
+            border-bottom-left-radius: 6px;
+        }
+
+        th:last-child, td:last-child {
+            border-top-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+        }
+
+ /*    tr:nth-child(even) td {
+        background: #f5f5f5;
+    } */
+    tr:nth-child(even) td {
+        background: #f2f2f2; /* Change white to dark gray color */
+        /* color: #fff; */
+    }
+    .scrollable {
+        max-height: 10px;
+        overflow: scroll
+    }
+</style>
+<h1>Index</h1>
+<a class="navbar-brand" href="index.html" style="margin-left:490px">
+    <img src="~/images/web.png" width="50" height="55" />
+    <span style=" font-family:'Times New Roman', Times, serif; margin-left:15px; color:#000;">
+        Requests
+    </span>
+
+</a>
+@* 
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PassportImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IDImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PassportImage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IDImage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+                <td>  <img width="200" height="170" class="img-fluid" src="Imgs/@item.PassportImage" alt=""></td>
+            <td>
+                </td>
+                <td>  <img width="200" height="170" class="img-fluid" src="Imgs/@item.IDImage" alt=""></td>
+                <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table> 
+
+<br />
+<br />
+<br />
+<hr />
+<br />
+<br />
+<br />
+<hr />
+<br />*@
+<table class="custom-table center-table">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                User Name
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Date
+            </th>
+            <th>
+                Status
+            </th>
+            <th>
+                Service
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+             @*    <td>@Html.DisplayFor(modelItem => item.category.Name)</td> *@
+                <td>
+                    PassPort Renewal
+                   @*  <div class="btns-actions">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-common " style="background-color:#363b4d; margin-left:8px"><i class=" lni-pencil"></i></a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger" style="background-color:#EB1616">  <i class="lni-trash"></i>  </a>
+                    </div> *@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="Create">
+    <input type="submit" value="New Request" style="pointer-events: all;border:none; cursor: pointer; width: 150px; height:45px; border-radius:15px;
+        background-color: #ffbe33;
+        color: #ffffff; margin-left:25px; margin-top:100px" />
+</a>

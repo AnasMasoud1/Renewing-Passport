@@ -1,0 +1,209 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RenewingPassport.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RenewingPassport.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\Imgs\\2388d308-59f7-4d9d-9c6d-d9e7ba697eba_stamp.png",
+      "PackagePath": "staticwebassets\\Imgs\\2388d308-59f7-4d9d-9c6d-d9e7ba697eba_stamp.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\Imgs\\42877b4e-e69e-483b-8bd7-1aa44ec8449e__065094dc-8c29-488a-8ff2-a802af0b82c6.jpg",
+      "PackagePath": "staticwebassets\\Imgs\\42877b4e-e69e-483b-8bd7-1aa44ec8449e__065094dc-8c29-488a-8ff2-a802af0b82c6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\Imgs\\86941108-bb7f-4397-9c00-95c75b3727ac_passport (1).png",
+      "PackagePath": "staticwebassets\\Imgs\\86941108-bb7f-4397-9c00-95c75b3727ac_passport (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\Imgs\\8c113095-ae88-447c-b755-5a6f2339b457_customer-review.png",
+      "PackagePath": "staticwebassets\\Imgs\\8c113095-ae88-447c-b755-5a6f2339b457_customer-review.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\Imgs\\94442742-3cee-43ce-907c-fbe07624af4e__be29efae-7356-44df-8101-489eae8a664e-5.jpg",
+      "PackagePath": "staticwebassets\\Imgs\\94442742-3cee-43ce-907c-fbe07624af4e__be29efae-7356-44df-8101-489eae8a664e-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\Imgs\\949626e5-5096-4187-8ecf-dfce09972900_web.png",
+      "PackagePath": "staticwebassets\\Imgs\\949626e5-5096-4187-8ecf-dfce09972900_web.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\Imgs\\a342f3b5-65e7-46ac-9888-74f6d868c0a9_iphone-13-pro-review-dan-baker-35.webp",
+      "PackagePath": "staticwebassets\\Imgs\\a342f3b5-65e7-46ac-9888-74f6d868c0a9_iphone-13-pro-review-dan-baker-35.webp"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\1000_F_519210226_ycYuGSuv1zTID5o76krBHUCAbrGHNZv8-pas2.jpg",
+      "PackagePath": "staticwebassets\\images\\1000_F_519210226_ycYuGSuv1zTID5o76krBHUCAbrGHNZv8-pas2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\_065094dc-8c29-488a-8ff2-a802af0b82c6-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\_065094dc-8c29-488a-8ff2-a802af0b82c6-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\_be29efae-7356-44df-8101-489eae8a664e-5.jpg",
+      "PackagePath": "staticwebassets\\images\\_be29efae-7356-44df-8101-489eae8a664e-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\about-img.png",
+      "PackagePath": "staticwebassets\\images\\about-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\client1.jpg",
+      "PackagePath": "staticwebassets\\images\\client1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\client2.jpg",
+      "PackagePath": "staticwebassets\\images\\client2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\close.png",
+      "PackagePath": "staticwebassets\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\customer-review.png",
+      "PackagePath": "staticwebassets\\images\\customer-review.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\f1.png",
+      "PackagePath": "staticwebassets\\images\\f1.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\f2.png",
+      "PackagePath": "staticwebassets\\images\\f2.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\f3.png",
+      "PackagePath": "staticwebassets\\images\\f3.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\f4.png",
+      "PackagePath": "staticwebassets\\images\\f4.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\f5.png",
+      "PackagePath": "staticwebassets\\images\\f5.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\f6.png",
+      "PackagePath": "staticwebassets\\images\\f6.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\f7.png",
+      "PackagePath": "staticwebassets\\images\\f7.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\f8.png",
+      "PackagePath": "staticwebassets\\images\\f8.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\f9.png",
+      "PackagePath": "staticwebassets\\images\\f9.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\icons8-passport-64.png",
+      "PackagePath": "staticwebassets\\images\\icons8-passport-64.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\o1.jpg",
+      "PackagePath": "staticwebassets\\images\\o1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\o2.jpg",
+      "PackagePath": "staticwebassets\\images\\o2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\passport (1).png",
+      "PackagePath": "staticwebassets\\images\\passport (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\passport.png",
+      "PackagePath": "staticwebassets\\images\\passport.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\upload.png",
+      "PackagePath": "staticwebassets\\images\\upload.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\user.png",
+      "PackagePath": "staticwebassets\\images\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\images\\web.png",
+      "PackagePath": "staticwebassets\\images\\web.png"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\RenewingPassport\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.RenewingPassport.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.RenewingPassport.props",
+      "PackagePath": "build\\RenewingPassport.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.RenewingPassport.props",
+      "PackagePath": "buildMultiTargeting\\RenewingPassport.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.RenewingPassport.props",
+      "PackagePath": "buildTransitive\\RenewingPassport.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
